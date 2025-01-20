@@ -1,0 +1,35 @@
+{
+  "name": "next-native-actions",
+  "version": "1.0.0",
+  "description": "A package for working with native actions in Next.js",
+  "keywords": [
+    "next",
+    "nextjs",
+    "server actions",
+    "actions"
+  ],
+  "homepage": "https://github.com/ftognetto/next-native-actions",
+  "bugs": {
+    "url": "https://github.com/ftognetto/next-native-actions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftognetto/next-native-actions.git"
+  },
+  "license": "MIT",
+  "author": "Fabrizio Tognetto <f.tognetto@quantos.it> (https://quantos.it)",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "@types/react": ">=18.0.0",
+    "next": ">=14.0.0",
+    "react": ">=18.0.0",
+    "sonner": ">=0.1.0",
+    "zod": ">=3.22.4"
+  }
+}
